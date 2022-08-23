@@ -1,0 +1,8 @@
+Name: shorturl-api
+Host: 0.0.0.0
+Port: 8888
+DataSource: root:xxxxxx@tcp(1.14.60.160:3307)/demo
+Cache:
+  - Host: 1.14.60.160:6379
+Transform:
+  Target: nacos://1.14.60.160:8848/transform.rpc?namespaceid=f49daff5-dbf9-437d-abb5-1431b8dcfc45&timeout=5000s

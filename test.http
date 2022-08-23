@@ -1,0 +1,14 @@
+POST http://localhost:8888/short
+Content-Type: application/json
+
+{
+  "url": "http://http://www.baidu.com"
+}
+
+###
+POST http://localhost:8888/long
+Content-Type: application/json
+
+{
+  "short_url": "e717b2"
+}
